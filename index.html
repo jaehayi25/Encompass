@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Encompass</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Encompass.json");
+    </script>
+    <style>
+      .center {
+        margin: 0px auto;
+        width: 1080px;
+      }
+      .centerText {
+        text-align: center;
+        margin-left: 320px;
+        margin-right: 320px;
+      }
+    </style>
+  </head>
+  
+  <body style="margin: 0px">
+    <h1 class = "centerText">Encompass</h1>
+    <p class = "centerText"></p>
+    <div class = "center">
+      <div id="unityContainer" style="width: 1080px; height: 600px; margin: auto"></div>
+    </div>
+  </body>
+  
+</html>
